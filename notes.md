@@ -1,4 +1,4 @@
--- Notes:
+-- Notes --
 
 Technical Team:
   - Andrew Patterson -- Training RBM models
@@ -9,6 +9,7 @@ Business Team:
   - Ramesh
   - Sheriff Ibrahim
   
+-- What we learned --
 
 - Trained with RBM on 1000 epochs for only '0' shows improvement when compared to 100 epochs.
   -- Over time, initial states and sampling stems might be more important than epoch's
