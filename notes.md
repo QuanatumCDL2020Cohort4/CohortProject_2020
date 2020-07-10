@@ -1,15 +1,15 @@
--- Notes --
+## Notes 
 
-Technical Team:
+### Technical Team:
   - Andrew Patterson -- Training RBM models
   - Shumpei Kobayashi -- Training RBM models and MNIST models
   - Nick Allgood -- Additional dataset research, training, and analysis.
 
-Business Team:
+### Business Team:
   - Ramesh
   - Sheriff Ibrahim
   
--- What we learned --
+## What we learned 
 
 - Trained with RBM on 1000 epochs for only '0' shows improvement when compared to 100 epochs.
   -- Over time, initial states and sampling stems might be more important than epoch's
@@ -23,8 +23,9 @@ Business Team:
 - For improvement, we might have to do a feed forward NN direction similar to say RNN, and it appears 0.0001 difference isn't quite reachable at this time.
 
 
--- Additional Tasks --
+## Additional Tasks 
 
+### Dataset Info
 - Using an additional dataset for solvated protein fragments: http://quantum-machine.org/datasets/
 
   **  Unke, O. T. and Meuwly, M. "PhysNet: A Neural Network for Predicting Energies, Forces, Dipole Moments and Partial Charges" arxiv:1902.08408 (2019). Unke, O.T. and Meuwly, M. (2019). Solvated protein fragments dataset. Zenodo. http://doi.org/10.5281/zenodo.2605372.
@@ -39,11 +40,13 @@ Business Team:
 
 - Potential energy is given with respect to free atoms with the following constraints:
 
-- H: -13.717939590030356 eV
-- C: -1029.831662730747 eV
-- N: -1485.40806126101 eV
-- O: -2042.7920344362644 eV
-- S: -10831.264715514206 eV
+* H: -13.717939590030356 eV
+* C: -1029.831662730747 eV
+* N: -1485.40806126101 eV
+* O: -2042.7920344362644 eV
+* S: -10831.264715514206 eV
+
+### Ideas and Objectives
 
 - Original idea is to train x and y to the available energies provided by the data set.
 
